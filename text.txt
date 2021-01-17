@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int total =500; // for 5 subject 
+	    Scanner s = new Scanner(System.in);
+		System.out.println("Please enter marks:");
+
+		System.out.println("Subject 1:");
+
+		float a =s.nextFloat();
+		System.out.println("Subject 2:");
+
+		float b =s.nextFloat();
+		System.out.println("Subject 3:");
+
+		float c =s.nextFloat();
+		System.out.println("Subject 4:");
+
+		float d =s.nextFloat();
+		System.out.println("Subject 5:");
+
+		float e =s.nextFloat();
+		
+		float obtained_marks = a+b+c+d+e;
+		System.out.println("The obtained marks out of 500 is: "+obtained_marks);
+		float percentage = (obtained_marks/total)*100;
+		System.out.println("The total percentage(%) is "+percentage+"%");
+
+
+	}
+}

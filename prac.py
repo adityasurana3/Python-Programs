@@ -1,0 +1,7 @@
+s= set()
+print("enter the number")
+a = int(input())
+e = int(input())
+d = int(input())
+b= s.add(a,e,d)
+print("The num",b)
